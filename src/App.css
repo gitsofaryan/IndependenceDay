@@ -1,0 +1,66 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Caprasimo&family=Lugrasimo&family=Preahvihear&family=Ubuntu:wght@500&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Alkatra', cursive;
+
+}
+
+html,body {
+
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    height: 100vh;
+    width: 100vh;
+    background: linear-gradient(to bottom, #FF9933, #FF9933 33%, #FFFFFF 33%, #FFFFFF 66%, #138808 66%);
+  }
+
+  .header{
+    position: absolute;
+    top: 8%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .header2{
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+ .message-input{
+    position: absolute;
+    top: 30%;
+ left: 20%;
+    transform: translate(-50%, -50%);
+ }
+ .greeting{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+ }
+ .name{
+    position: absolute;
+    top: 20%;
+    border: 1px solid black;
+ }
+
+ .container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+ }
+
+ .message{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+ }
